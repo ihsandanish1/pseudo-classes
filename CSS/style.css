@@ -1,0 +1,28 @@
+*{
+    padding: 0pa;
+    margin: 0px;
+}
+h2::first-letter{
+color: red;
+font-weight:bold;
+font-size: 30px;
+}
+p::first-line{
+    color: rgb(0, 38, 255);
+    font-weight:bold;
+   }
+ li::selection{
+    background-color: red;
+    color: aliceblue;
+ }  
+ p::selection{
+    background-color:orange;
+    color: aliceblue;
+ } 
+ h2::selection{
+    background-color:yellow;
+    color: aliceblue;
+ } 
+ ::placeholder{
+    color: red;
+ }
